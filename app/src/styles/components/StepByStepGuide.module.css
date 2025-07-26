@@ -1,0 +1,14 @@
+.stepGuide {
+    margin: 24px;
+  }
+  
+  .stepsList {
+    list-style-type: decimal;
+    padding-left: 24px;
+  }
+  
+  .step {
+    margin: 8px 0;
+    font-size: 1rem;
+  }
+  

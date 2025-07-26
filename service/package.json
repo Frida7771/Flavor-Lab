@@ -1,0 +1,38 @@
+{
+  "name": "final-project-arknights",
+  "version": "1.0.0",
+  "description": "1. Haodong Lyu lyu.haod@northeastern.edu\r 2. Bo Li li.bo10@northeastern.edu\r 3. Hanyao Yu yu.hanya@northeastern.edu\r 4. Ye Wang wang.ye7@northeastern.edu",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/info-6150-fall-2024/final-project-arknights.git"
+  },
+  "type": "module",
+  "author": "Haodong Lyu, Bo Li, Ye Wang, Hanyao Yu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/info-6150-fall-2024/final-project-arknights/issues"
+  },
+  "homepage": "https://github.com/info-6150-fall-2024/final-project-arknights#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "debug": "^4.3.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "final-project-arknights": "file:..",
+    "google-auth-library": "^9.15.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment-timezone": "^0.5.46",
+    "mongoose": "^8.8.2",
+    "passport": "^0.7.0",
+    "secure-password-validator": "^1.0.2"
+  }
+}

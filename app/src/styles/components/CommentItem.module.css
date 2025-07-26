@@ -1,0 +1,50 @@
+/* Container for a single comment */
+.commentItem {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the creator's name (who posted the comment) */
+  .commentCreator {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  /* Styling for the comment content */
+  .commentContent {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 8px;
+    line-height: 1.5;
+  }
+  
+  /* Date/time when the comment was posted */
+  .commentDate {
+    font-size: 0.875rem;
+    color: #777;
+    margin-top: 5px;
+  }
+  
+  /* Button to delete the comment */
+  .deleteButton {
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-start;
+  }
+  
+  .deleteButton:hover {
+    background-color: #ff1a1a;
+  }
+  

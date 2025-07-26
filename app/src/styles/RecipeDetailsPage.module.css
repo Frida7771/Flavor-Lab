@@ -1,0 +1,33 @@
+.recipeDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.recipeDetails {
+  transition: transform 0.3s ease;
+}
+
+.pushLeft {
+  transform: translateX(-30%);
+}
+
+.editButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.shareContainer {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,45 @@
+/* Form container for adding a new comment */
+.commentForm {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  /* Input field for the comment content */
+  .commentInput {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    color: #333;
+    resize: vertical; /* Allow vertical resizing of the textarea */
+    min-height: 80px; /* Minimum height for better user experience */
+  }
+  
+  /* Button to submit the comment */
+  .submitButton {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error message styling if there's an issue with submitting the comment */
+  .errorMessage {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 10px;
+  }
+  

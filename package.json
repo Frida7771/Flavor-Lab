@@ -1,0 +1,32 @@
+{
+    "name": "final-project-arknights",
+    "version": "1.0.0",
+    "description": "1. Haodong Lyu lyu.haod@northeastern.edu\r 2. Bo Li li.bo10@northeastern.edu\r 3. Hanyao Yu yu.hanya@northeastern.edu\r 4. Ye Wang wang.ye7@northeastern.edu",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "install-all": "npm --prefix app install && npm --prefix service install",
+        "start-backend": "npm --prefix service start",
+        "start-frontend": "npm --prefix app run build & npm --prefix app run preview",
+        "start-frontend-dev": "npm --prefix app run dev",
+        "start": "npm run start-backend & npm run start-frontend-dev",
+        "start-prod": "npm run start-frontend && npm run start-backend"
+    },
+    "repository": {
+        "type": "module",
+        "url": "git+https://github.com/info-6150-fall-2024/final-project-arknights.git"
+    },
+    "author": "Haodong Lyu, Bo Li, Ye Wang, Hanyao Yu",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/info-6150-fall-2024/final-project-arknights/issues"
+    },
+    "homepage": "https://github.com/info-6150-fall-2024/final-project-arknights#readme",
+    "devDependencies": {
+        "vite": "^5.4.11"
+    },
+    "dependencies": {
+        "react-share": "^5.1.1"
+    }
+}
